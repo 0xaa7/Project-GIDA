@@ -41,9 +41,9 @@ export const Footer = () => {
           <div className='item'>
             <h1>Coming soon on</h1>
             <p>
-              <img src='images/social/fb.png' alt='' />
-              <img src='images/social/insta.png' alt='' />
-              <img src='images/social/twitter.png' alt='' />
+              <img src='../images/social/fb.png' alt='' />
+              <img src='../images/social/insta.png' alt='' />
+              <img src='../images/social/twitter.png' alt='' />
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export const Footer = () => {
             <span className='copyrights'>© Copyright 2023. All Rights Reserved</span>
           </div>
           <div className='right'>
-            <img src='images/pngegg.png' alt='' />
+            <img src='./images/pngegg.png' alt='' />
           </div>
         </div>
       </div>

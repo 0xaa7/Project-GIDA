@@ -7,9 +7,9 @@ const Slider = () => {
   const [presentSlide, setPresentSlide] = useState(0);
 
   const data = [
-    "./images/Hero/GREEN.png",
-    "./images/Hero/2.png",
-    "./images/Hero/3.png",
+    "../images/Hero/green.PNG",
+    "../images/Hero/2.png",
+    "../images/Hero/3.png",
   ];
 
   const prevSlide = () => {
