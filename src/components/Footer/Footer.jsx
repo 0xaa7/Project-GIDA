@@ -1,12 +1,10 @@
-import React from 'react'
-import "./Footer.scss"
+import './Footer.scss';
 
 export const Footer = () => {
   return (
     <div className='footer'>
       <div className='wrapper'>
         <div className='top'>
-
           <div className='item'>
             <h1>Categories</h1>
             <span>plants</span>
@@ -24,33 +22,42 @@ export const Footer = () => {
             <span>Privacy Policy</span>
             <span>Refund Policy</span>
             <span>Terms and Conditions</span>
-            
           </div>
+
           <div className='item'>
             <h1>About</h1>
             <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              At GIDA, we have a passion for all things green. Our journey began with a simple idea: to make the joy of gardening and the beauty of nature accessible to everyone. Today, we are proud to be your trusted partner in turning your indoor and outdoor spaces into lush, thriving paradises.
             </span>
           </div>
+
           <div className='item'>
             <h1>Contact</h1>
             <span>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </span>
+          </div>
+
+          <div className='item'>
+            <h1>Coming soon on</h1>
+            <p>
+              <img src='images/social/fb.png' alt='' />
+              <img src='images/social/insta.png' alt='' />
+              <img src='images/social/twitter.png' alt='' />
+            </p>
           </div>
         </div>
 
         <div className='bottom'>
-          <div className="left">
+          <div className='left'>
             <span className='logo'>GIDA</span>
-            <span className='copyrights'> © Copyright 2023. All Rights Reserved </span>
+            <span className='copyrights'>© Copyright 2023. All Rights Reserved</span>
           </div>
           <div className='right'>
-            <img src='images/pngegg.png' alt=''/>
+            <img src='images/pngegg.png' alt='' />
           </div>
         </div>
-
       </div>
     </div>
-  )
-}
+  );
+};

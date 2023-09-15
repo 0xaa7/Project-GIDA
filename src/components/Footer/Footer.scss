@@ -13,26 +13,43 @@
       text-align: justify;
       font-size: 14px;
 
-      h1{
+      h1 {
         font-size: 18px;
         font-weight: 500;
         color: #555;
       }
+
+      p {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 15px;
+
+        img {
+          margin-top: 0px;
+          width: 42px;
+          height: 42px;
+        }
+      }
+
       span {
         color: gray;
+        text-justify: auto;
       }
     }
   }
-  .bottom{
+
+  .bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
-    .left{
-      display:flex;
+
+    .left {
+      display: flex;
       align-items: center;
 
       .logo {
+        color: #000000;
         font-weight: bold;
         font-size: 24px;
       }
@@ -43,9 +60,45 @@
         color: gray;
       }
     }
-    .right{
+
+    .right {
       img {
         height: 50px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 0px;
+    padding: 15px;
+
+    .top {
+      flex-direction: column;
+
+      .item {
+        flex: 1;
+        margin-bottom: 20px;
+
+        h1 {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .bottom {
+      flex-direction: column;
+
+      .left {
+        margin-top: 20px;
+        text-align: center;
+
+        .logo {
+          font-size: 20px;
+        }
+      }
+
+      .right {
+        display: none;
       }
     }
   }
