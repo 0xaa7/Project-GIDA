@@ -1,18 +1,24 @@
 .navbar {
   height: 60px;
   margin: 0px;
+  
 
   .wrapper {
+    width: 100%;
     padding: 10px 10px 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    z-index: 100;
+    background-color: #ffff;
   }
 
   .center {
     display: flex;
     align-items: center;
     gap: 25px;
+    transition: width 0.3s ease-in-out;
   }
 
   .left {
@@ -37,7 +43,7 @@
       gap: 15px;
       color: #777;
       cursor: pointer;
-      margin-left: 85px;
+      margin-right: 45px;
       align-items: center;
       justify-content: center;
 
@@ -76,26 +82,21 @@
     display: none;
     flex-direction: column;
     position: fixed;
-    top: 60px;
+    top: 54px;
     right: -40px;
-    background-color: rgb(255, 255, 255);
-    opacity: 0.9;
-    padding: 12px;
-    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.671);
     width: 0;
   }
 
   .show-menu {
     display: flex;
-    width: 200px;
-    border-radius: 10px;
+    width: 250px;
     color: rgb(0, 0, 0);
-    background-color: rgb(142, 202, 51);
+    background-color: rgba(255, 255, 255, 0.671);
     position: fixed;
-    top:60px;
-    right: 20px;
-      
-  }
+    top:54px;
+    
+   }
 }
 
 @media (min-width: 769px) {

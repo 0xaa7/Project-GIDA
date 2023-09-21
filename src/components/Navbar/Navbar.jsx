@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import MenuIcon from '@mui/icons-material/Menu';
 import './Navbar.scss';
@@ -58,7 +58,7 @@ const Navbar = () => {
         <div className='right'>
            <div className='icons'>
             <div className="cartIcon">
-              <ShoppingBagIcon />
+              <ShoppingCartIcon />
               <span>0</span>
             </div>
             <div>
