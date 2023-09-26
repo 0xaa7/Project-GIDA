@@ -14,7 +14,7 @@ import './Footer.scss';
             <span>Custom Made</span>
             <span>Best sellers</span>
           </div>
-
+          
           <div className='item'>
             <h1>Links</h1>
             <span>FAQ</span>
@@ -27,20 +27,20 @@ import './Footer.scss';
 
           <div className='item'>
             <h1>About</h1>
-            <span>
+            <span className='b'>
               At GIDA, we have a passion for all things green. Our journey began with a simple idea: to make the joy of gardening and the beauty of nature accessible to everyone. Today, we are proud to be your trusted partner in turning your indoor and outdoor spaces into lush, thriving paradises.
             </span>
           </div>
 
           <div className='item'>
             <h1>Contact</h1>
-            <div>
+            <span className='b'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </div>
+            </span>
           </div>
 
           <div className='item'>
-            <h1>Coming soon on</h1>
+            <h1>Follow Us On</h1>
             <p>
               <img src='../images/social/fb.png' alt='' />
               <img src='../images/social/insta.png' alt='' />

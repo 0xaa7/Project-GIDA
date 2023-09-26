@@ -1,17 +1,23 @@
 .footer {
-  margin: 100px 200px 20px 200px;
+  
+  margin: 100px 50px 20px 50px;
+
+  
 
   .top {
     display: flex;
-    gap: 50px;
+    gap: 15px;
+    
 
     .item {
-      flex: 1;
+      display: flex;
+      width: 250px;
       display: flex;
       flex-direction: column;
       gap: 10px;
-      text-align: justify;
       font-size: 14px;
+    
+     
 
       h1 {
         font-size: 18px;
@@ -19,22 +25,28 @@
         color: #555;
       }
 
+      .b {
+        color: #000000;
+      }
+
       p {
         display: flex;
         gap: 5px;
-        margin-bottom: 15px;
+        margin: 0px;
+        
 
         img {
-          margin-top: 0px;
-          width: 42px;
-          height: 42px;
+          
+          width: 24px;
+          height: 24px;
         }
       }
 
       span {
+        display: flex;
+        margin: 0px;
         color: gray;
-        text-justify: auto;
-      }
+       }
     }
   }
 
