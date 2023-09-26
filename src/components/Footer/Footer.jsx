@@ -42,9 +42,12 @@ import './Footer.scss';
           <div className='item'>
             <h1>Follow Us On</h1>
             <p>
+              Thank you for choosing GIDA. Follow us on social media to stay up-to-date with our latest products and services.
+              <div className='social'>
               <img src='../images/social/fb.png' alt='' />
               <img src='../images/social/insta.png' alt='' />
               <img src='../images/social/twitter.png' alt='' />
+              </div>
             </p>
           </div>
         </div>

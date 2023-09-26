@@ -1,19 +1,23 @@
 .footer {
-  
+
   margin: 100px 50px 20px 50px;
 
-  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
 
   .top {
     display: flex;
+    width: 100%;
     gap: 15px;
     
 
     .item {
       display: flex;
-      width: 250px;
-      display: flex;
       flex-direction: column;
+      margin: 0px;
+      width:100vh ;
       gap: 10px;
       font-size: 14px;
     
@@ -25,18 +29,19 @@
         color: #555;
       }
 
-      .b {
-        color: #000000;
-      }
-
       p {
         display: flex;
-        gap: 5px;
+        flex-direction: column;
+        gap: 10px;
         margin: 0px;
+        color: #555;
         
+        .social {
+          display: flex;
+          gap: 10px;
+        }
 
         img {
-          
           width: 24px;
           height: 24px;
         }
@@ -78,6 +83,7 @@
         height: 50px;
       }
     }
+   }
   }
 
   @media (max-width: 768px) {
