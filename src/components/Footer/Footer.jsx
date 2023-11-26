@@ -8,35 +8,35 @@ import './Footer.scss';
 
           <div className='item'>
             <h1>Categories</h1>
-            <span>plants</span>
-            <span>Pots</span>
-            <span>Media</span>
-            <span>Custom Made</span>
-            <span>Best sellers</span>
+            <p>plants</p>
+            <p>Pots</p>
+            <p>Media</p>
+            <p>Custom Made</p>
+            <p>Best sellers</p>
           </div>
           
           <div className='item'>
             <h1>Links</h1>
-            <span>FAQ</span>
-            <span>Pages</span>
-            <span>Blogs</span>
-            <span>Privacy Policy</span>
-            <span>Refund Policy</span>
-            <span>Terms and Conditions</span>
+            <p>FAQ</p>
+            <p>Pages</p>
+            <p>Blogs</p>
+            <p>Privacy Policy</p>
+            <p>Refund Policy</p>
+            <p>Terms and Conditions</p>
           </div>
 
           <div className='item'>
             <h1>About</h1>
-            <span className='b'>
-              At GIDA, we have a passion for all things green. Our journey began with a simple idea: to make the joy of gardening and the beauty of nature accessible to everyone. Today, we are proud to be your trusted partner in turning your indoor and outdoor spaces into lush, thriving paradises.
-            </span>
+            <p className='b'>
+              At GIDA, we have a passion for all things green. Our journey began with a simple idea: to make the joy of gardening and the beauty of nature accessible to everyone.
+            </p>
           </div>
 
           <div className='item'>
             <h1>Contact</h1>
-            <span className='b'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </span>
+             <p>contact : +91 1234567890</p>
+             <p>E-mail  : Work.gida@gmail.com</p>
+             <p>Address : xyz india 555555</p>
           </div>
 
           <div className='item'>
@@ -54,8 +54,8 @@ import './Footer.scss';
 
         <div className='bottom'>
           <div className='left'>
-            <span className='logo'>GIDA</span>
-            <span className='copyrights'>© Copyright 2023. All Rights Reserved</span>
+            <p className='logo'>GIDA</p>
+            <p className='copyrights'>© Copyright 2023. All Rights Reserved</p>
           </div>
           <div className='right'>
             <img src='./images/pngegg.png' alt='' />

@@ -1,6 +1,5 @@
 .footer {
-
-  margin: 100px 50px 20px 50px;
+   margin: 100px 50px 20px 50px;
 
   .wrapper {
     display: flex;
@@ -9,15 +8,17 @@
 
   .top {
     display: flex;
+    
     width: 100%;
-    gap: 15px;
+    gap:15px;
+    
     
 
     .item {
       display: flex;
       flex-direction: column;
       margin: 0px;
-      width:100vh ;
+      width:100%;
       gap: 10px;
       font-size: 14px;
     

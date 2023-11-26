@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
-import MenuIcon from '@mui/icons-material/Menu';
+import { Squash as Hamburger } from 'hamburger-react'
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -59,14 +59,14 @@ const Navbar = () => {
            <div className='icons'>
             <div className="cartIcon">
               <ShoppingCartIcon />
-              <span>0</span>
+              <span className='noti'>0</span>
             </div>
             <div>
               <SearchIcon />
             </div>
-            
-            <div className="hamburger" onClick={toggleMenu}><MenuIcon  /></div>
-            
+            <span onClick={toggleMenu}>
+              <Hamburger size={18}/>
+            </span>
           </div>
         </div>
       </div>

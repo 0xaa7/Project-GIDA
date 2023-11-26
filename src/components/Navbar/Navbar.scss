@@ -1,24 +1,21 @@
 .navbar {
   height: 60px;
+  margin: 0px;
 
-  
-
-  .wrapper {
+   .wrapper {
+    padding: 10px 10px;
+    display: flex;
+    position: fixed;
     width: 100%;
-    padding: 10px 10px 10px 10px;
-    display: flex; 
     justify-content: space-between;
-    align-items: center;
-    position:fixed;
     z-index: 100;
     background-color: #ffff;
-  }
-
-  .center {
+    
+    .center {
     display: flex;
     align-items: center;
     gap: 25px;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.5s ease-out;
   }
 
   .left {
@@ -31,25 +28,20 @@
     justify-content: center;
     gap: 25px;
     
-
-    .item {
-      display: flex;
-      align-items: center;
-      font-size: 18px;
-    }
-
     .icons {
       display: flex;
+      align-items: center;
+      justify-content: center;
       gap: 15px;
       color: #777;
       cursor: pointer;
-      padding-top: 10px;
+     
       font-size: 14px;
 
       .cartIcon {
         position: relative;
 
-        span {
+        .noti {
           width: 17px;
           height: 17px;
           border-radius: 50%;
@@ -67,42 +59,58 @@
   }
 }
 
+}
+
 @media (max-width: 768px) {
-  .hamburger {
-    display: block;
+  .hamburger-react {
+    display: flex;
     background: none;
     border: none;
-    font-size: 24px;
     color: #777;
     cursor: pointer;
+    z-index: 220;
+    top:-1.5px;
+    right: 13px;
+  
    }
 
   .center {
     display: flex;
     flex-direction: column;
-    width: 0vh;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 0px;
+    height: 100%;
+    top: 0;
+    right: 0;
     position: fixed;
-    top: 65px;
-    right: -40px;
-    background-color: rgba(0, 0, 0, 0.74);
-    color: rgb(255, 255, 255);
-   
+    background-color: rgba(0, 0, 0);
+    color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    z-index: 199;
   }
 
   .show-menu {
     display: flex;
-    width: 100vh;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.74);;
+    width:100%;
+    height: 100%;
+    top: 0;
+      
+      right: 0;
+      bottom: 0;
+    background-color: rgba(0, 0, 0);
     position: fixed;
-    top:65px;
-    
-    
-   }
+    z-index: 200;
+    overflow-y: auto;
+    }
 }
 
 @media (min-width: 769px) {
-  .hamburger {
+  .hamburger-react {
     display: none;
   }
 }
